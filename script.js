@@ -7,6 +7,18 @@ let dificuldades = {
   "★★★★★": [],
 };
 
+function carregarDados() {
+  const dadosSalvos = localStorage.getItem("dadosMusicas");
+  if (dadosSalvos) {
+    const dados = JSON.parse(dadosSalvos);
+    songs = dados.songs || [];
+    dificuldades = dados.dificuldades || dificuldades;
+    exibirMusicas();
+  }
+}
+
+carregarDados();
+
 function adicionarMusica() {
   const songName = document.getElementById("songName").value;
   const songDificulty = document.getElementById("songDificulty").value;
@@ -20,6 +32,7 @@ function adicionarMusica() {
     songs.push(novaMusica);
     classificarDificuldade(novaMusica);
     limparFormulario();
+    salvarDados();
   } else {
     alert("Por favor, insira o nome da música.");
   }
@@ -57,9 +70,16 @@ function exibirMusicas() {
       listaMusicasDiv.appendChild(infoMusica);
     }
   }
+
+  salvarDados();
 }
 
 function excluirMusica(dificuldade, indice) {
   dificuldades[dificuldade].splice(indice, 1);
   exibirMusicas();
+}
+
+function salvarDados() {
+  const dados = { songs, dificuldades };
+  localStorage.setItem("dadosMusicas", JSON.stringify(dados));
 }
