@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://cdn.pixabay.com/photo/2016/03/23/17/26/music-note-1275177_960_720.png"
+      type="image/x-icon"
+    />
+    <title>Songs</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="infos">
+      <div class="borda">
+        <div class="tela">
+          <div class="left">
+            <br />
+            <img
+              src="./assets/avatar.jpg"
+              alt="avatar-usuario"
+              class="avatar-usuario"
+            />
+            <div class="usuario">
+              <h1 class="nome-usuario">Username</h1>
+              <h2 class="arquetipo-usuario">"Archetype"</h2>
+              <ul class="lista-infos">
+                <li>Age</li>
+                <li>Occupation</li>
+                <li>Time Spent</li>
+                <li>More info</li>
+              </ul>
+            </div>
+            <div class="bio-usuario">
+              <h1 class="bio-titulo">Bio</h1>
+              <p class="paragrafo-bio">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+
+            <div class="dev">
+              <a
+                href="https://www.instagram.com/caiorossi.dev/"
+                target="_blank"
+              >
+                <img src="./assets/logo.png" alt="" class="logo" />
+              </a>
+              <p>@Caiorossi.dev</p>
+            </div>
+          </div>
+          <div class="right">
+            <div id="tracker">
+              <div class="container-form">
+                <form id="addSongForm">
+                  <label for="songName"></label>
+                  <input
+                    type="text"
+                    id="songName"
+                    placeholder="Song Name"
+                    required
+                  />
+                  <label for="songDificulty"></label>
+                  <select id="songDificulty" required>
+                    <option value="★">★</option>
+                    <option value="★★">★★</option>
+                    <option value="★★★">★★★</option>
+                    <option value="★★★★">★★★★</option>
+                    <option value="★★★★★">★★★★★</option>
+                  </select>
+                  <br /><button
+                    type="button"
+                    onclick="adicionarMusica()"
+                    class="submit"
+                  >
+                    Add new song
+                  </button>
+                </form>
+                <div id="display-1">
+                  <h1>★ Song List ★</h1>
+                  <div id="listaMusicas"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

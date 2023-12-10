@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+* {
+    margin: 0.3rem;
+    color: black;
+    letter-spacing: -1px;
+}
+
+body {
+    font-family: "poppins", monospace;
+    background-color: #EAEAEA;
+}
+
+.borda {
+    border: solid 1px #000000;
+    width: fit-content;
+}
+
+.tela {
+    display: flex;
+    gap: 7rem;
+    margin-right: 10px;
+}
+
+.left {
+    height: fit-content;
+}
+
+.avatar-usuario {
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+    border: solid #B3B3B3 2px;
+    border-radius: 2px;
+    position: absolute;
+    margin-left: 2rem;
+}
+
+.usuario {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20rem;
+    width: fit-content;
+}
+
+.nome-usuario {
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.arquetipo-usuario {
+    font-style: italic;
+    font-size: small;
+    background-color: #B3B3B3;
+    width: 95px;
+    height: max-content;
+    text-align: center;
+    border-radius: 3px;
+    margin-left: -0rem;
+}
+
+.lista-infos {
+    margin-left: -1.2rem;
+    font-weight: bold;
+    width: 10rem;
+}
+
+.bio-usuario {  
+    margin-left: 2rem;
+    margin-top: 3rem;
+    border-top: 1.4px solid #B3B3B3;
+    width: fit-content;
+}
+
+.bio-titulo {
+    font-weight: bolder;
+    margin-top: 1rem;
+}
+
+.paragrafo-bio {
+    text-align: justify;
+    width: 30rem;
+}
+
+.dev {
+    margin-left: 2rem;
+    width: fit-content;
+    margin-top: 3rem;
+}
+
+.logo {
+    cursor: pointer;
+    height: 110px;
+}
+
+.dev p {
+    margin-top: -0.3rem;
+    margin-left: -0.4rem;
+}
+
+#tracker {
+    width: 555px;
+    height: 720px;
+    background-color: #B3B3B3;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 1.5rem;
+}
+
+#songName {
+    margin-top: 4rem;
+    margin-bottom: -2rem;
+    padding: 0.5rem;
+    margin-left: 3rem;
+}
+
+#songDificulty {
+    padding: 0.5rem;
+    width: fit-content;
+    margin-left: 3rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+  
+input {
+    width: 45%;
+    padding: 8px;
+    margin-bottom: 16px;
+    color: black;
+}
+
+.submit{
+    background-color: #3c3e41;
+    padding: 10px; 
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 3rem;
+  }
+  
+.submit:hover {
+    background-color: #696972;
+}
+  
+#display-1 {
+    margin-top: 2rem;
+    width: 22rem;
+    height: 24.5rem;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-left: 3rem;
+    overflow-y: auto;
+    word-wrap: break-word; 
+}
+
+#display-1 p {
+    margin-left: 2.0rem;
+    font-size: small;
+}
+
+.btn-excluir {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    cursor: pointer;
+    border-radius: 2px;
+
+}
+
+
+
+
+
+
