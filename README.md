@@ -26,7 +26,7 @@ Revisão 1: <br>
 Nova interface
 
 Possíveis Revisões Futuras: <br>
-Todos os dados e a foto do usuário inseridos de forma dinâmica
+Todos os dados e a foto do usuário inseridos de forma dinâmica <br>
 Display da lista de músicas com um carrossel de abas de dificuldade
 
 Link: <a href="https://caiorossi00.github.io/Songs/">Songs</a>
