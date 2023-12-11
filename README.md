@@ -18,7 +18,7 @@ Destaques e Aprendizados: <br>
 Datas Importantes: 
 <ul>
   <li>Início: 15/11/2023</li>
-  <li>Conclusão: 16/11/2023</li>
+  <li>Conclusão: 16/11/2023</li><br>
   <li>Revisão 1: 10/12/2023</li>
 </ul>
 
