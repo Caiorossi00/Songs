@@ -7,12 +7,12 @@ Destaques e Aprendizados: <br>
 <ol>
   <li>Lógica de Programação</li>
   <li>Manipulação do DOM</li>
-  <li>Intervalos e Atualizações Automáticas</li>
-  <li>Armazenamento local</li>
   <li>Validação de Entrada</li>
   <li>Usabilidade</li>
   <li>Refatoração de Código</li>
   <li>Responsividade</li>
+  <li>Armazenamento local</li>
+
 </ol>
 
 Datas Importantes: 
